@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1668696307533" clover="3.2.0">
-  <project timestamp="1668696307533" name="All files">
-    <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0" elements="12" coveredelements="6" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
+<coverage generated="1668705927050" clover="3.2.0">
+  <project timestamp="1668705927050" name="All files">
+    <metrics statements="14" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2" elements="17" coveredelements="14" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
     <file name="server.ts" path="/home/wellington-rutes/projects/back/testes/node-jest/src/server.ts">
-      <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="14" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="0" type="stmt"/>
-      <line num="9" count="0" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="13" count="0" type="stmt"/>
-      <line num="14" count="0" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

@@ -1,4 +1,5 @@
 import express from 'express';
+import axios from 'axios';
 
 const app = express();
 
@@ -16,6 +17,14 @@ app.get('/users/:id', (request, response) => {
     return response.json( {
         message: `Buscando o usuário pelo id ${request.params.id}`, 
         data: users[Number(id)]
+    })
+});
+
+app.get('/external-users/', async (request, response) => {
+    const users = await axios.get('http://demo8362249.mockable.io/users');
+    return response.json( {
+        message: `Buscando usuários externos.`, 
+        data: users.data
     })
 });
 
